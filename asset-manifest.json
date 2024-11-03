@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BurgerCreator/static/css/main.e647c234.css",
+    "main.js": "/BurgerCreator/static/js/main.acd9f178.js",
+    "static/js/453.0ce67602.chunk.js": "/BurgerCreator/static/js/453.0ce67602.chunk.js",
+    "index.html": "/BurgerCreator/index.html",
+    "main.e647c234.css.map": "/BurgerCreator/static/css/main.e647c234.css.map",
+    "main.acd9f178.js.map": "/BurgerCreator/static/js/main.acd9f178.js.map",
+    "453.0ce67602.chunk.js.map": "/BurgerCreator/static/js/453.0ce67602.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e647c234.css",
+    "static/js/main.acd9f178.js"
+  ]
+}
