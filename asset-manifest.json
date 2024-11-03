@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BurgerCreator/static/css/main.e647c234.css",
-    "main.js": "/BurgerCreator/static/js/main.acd9f178.js",
+    "main.css": "/BurgerCreator/static/css/main.409a3657.css",
+    "main.js": "/BurgerCreator/static/js/main.4c123379.js",
     "static/js/453.0ce67602.chunk.js": "/BurgerCreator/static/js/453.0ce67602.chunk.js",
     "index.html": "/BurgerCreator/index.html",
-    "main.e647c234.css.map": "/BurgerCreator/static/css/main.e647c234.css.map",
-    "main.acd9f178.js.map": "/BurgerCreator/static/js/main.acd9f178.js.map",
+    "main.409a3657.css.map": "/BurgerCreator/static/css/main.409a3657.css.map",
+    "main.4c123379.js.map": "/BurgerCreator/static/js/main.4c123379.js.map",
     "453.0ce67602.chunk.js.map": "/BurgerCreator/static/js/453.0ce67602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e647c234.css",
-    "static/js/main.acd9f178.js"
+    "static/css/main.409a3657.css",
+    "static/js/main.4c123379.js"
   ]
 }
