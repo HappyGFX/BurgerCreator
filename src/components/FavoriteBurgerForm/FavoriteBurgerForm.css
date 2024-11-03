@@ -1,0 +1,46 @@
+input {
+    background-color: transparent;
+    padding: 8px;
+    font-size: 24px;
+    font-family: 'Snowburst One', cursive;
+    color: #FEFCE7;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+input::placeholder {
+    color: #FEFCE7;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(254, 252, 231, 0.1);
+}
+
+.favorite-burger-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.save-button {
+    padding: 24px 52px;
+    font-size: 24px;
+    background: #FEFCE7;
+    color: #76564B;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    font-family: 'Snowburst One', cursive;
+}
+
+.save-button:hover {
+    background-color: #e3e0c7;
+}
+
+.error-message {
+    color: #FA0404;
+}

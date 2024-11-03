@@ -1,0 +1,68 @@
+.favorite-burgers {
+    position: absolute;
+    background-color: #76564B;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    visibility: hidden;
+    transform: translateY(-25%);
+    transition: visibility 0.15s, transform 0.2s, opacity 0.2s;
+    opacity: 0;
+}
+
+.favorite-burgers.show {
+    visibility: visible;
+    transform: translateY(0);
+    transition: visibility 0.1s, transform 0.2s, opacity 0.2s;
+    opacity: 1;
+}
+
+.favorite-burgers-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 64px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.favorite-burgers-list > div {
+    width: calc(25% - 48px);
+    position: relative;
+    padding-bottom: 124px;
+}
+
+.favorite-burgers-list p {
+    color: #FEFCE7;
+    font-size: 24px;
+    text-align: center;
+}
+
+.favorite-burgers-list button {
+    color: #FEFCE7;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Snowburst One', cursive;
+    width: 100%;
+    border-radius: 0;
+    padding: 12px 12px;
+}
+
+.favorite-burgers-list button > img {
+    margin-right: 8px;
+}
+
+.favorite-burgers-list button:hover {
+    background: #dc3c3c;
+}
+
+.favorite-burgers-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

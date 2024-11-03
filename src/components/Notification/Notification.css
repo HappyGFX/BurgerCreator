@@ -1,0 +1,9 @@
+.notification p {
+    margin: 0;
+    color: #FA0404;
+    padding-bottom: 48px;
+}
+
+.notification p.success {
+    color: #04FA3A;
+}

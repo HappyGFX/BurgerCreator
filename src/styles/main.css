@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
+
+body {
+    background: #76564B;
+    font-family: 'Snowburst One', cursive;
+}
+
+h1 {
+    color: #FEFCE7;
+    text-align: center;
+    font-size: 72px;
+}
+
+.color-blue {
+    color: #68BDFB;
+}
+
+.color-red {
+    color: #FA0404;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+}
+
+.burger-info {
+    text-align: center;
+}

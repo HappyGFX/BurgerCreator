@@ -1,0 +1,36 @@
+.burger-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+
+    position: relative;
+    z-index: 0;
+}
+
+.ingredient {
+    height: 56px;
+    margin: -10px 0; /* Ułatwia nakładanie się składników */
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.lettuce, .tomato, .cheese {
+    height: 35px;
+}
+
+.top_bun {
+    height: 126px;
+}
+
+.ingredients-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+

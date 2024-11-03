@@ -1,0 +1,66 @@
+.ingredient-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: calc(33% - 40px);
+}
+
+.ingredient-image {
+    width: 132px;
+    height: 132px;
+    margin: 5px 0;
+    padding: 18px;
+    object-fit: contain;
+    border-radius: 999px;
+    background-color: #FEFCE7;
+}
+
+.ingredient-counter {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ingredient-counter p {
+    font-size: 24px;
+    width: 16px;
+    text-align: center;
+    color: #FEFCE7;
+}
+
+button {
+    background-color: #F56565;
+    color: white;
+    border: none;
+    border-radius: 99px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button.increase {
+    background-color: #90F26D;
+}
+
+button:hover {
+    background-color: #cf4141;
+}
+
+button.increase:hover {
+    background-color: #65c142;
+}
+
+.ingredient-name {
+    font-weight: 400;
+    margin: 5px 0;
+    color: #FEFCE7;
+    word-wrap: break-word;
+    font-size: 24px;
+}
+
+.ingredient-quantity {
+    margin: 5px 0;
+}

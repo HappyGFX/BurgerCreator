@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+}
+
+.menu button {
+    background: #FEFCE7;
+    border: none;
+    border-radius: 0;
+    padding: 12px 12px;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+button:hover {
+    background: #e3e0c7;
+}
