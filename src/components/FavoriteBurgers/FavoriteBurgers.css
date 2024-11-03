@@ -66,3 +66,19 @@
     bottom: 0;
     width: 100%;
 }
+
+@media (max-width: 1100px) {
+    .favorite-burgers-list {
+        padding: 80px 24px;
+    }
+
+    .favorite-burgers-list > div {
+        width: calc(50% - 32px);
+    }
+}
+
+@media (max-width: 768px) {
+    .favorite-burgers-list > div {
+        width: 100%;
+    }
+}

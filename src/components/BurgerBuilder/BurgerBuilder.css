@@ -2,3 +2,31 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+.container {
+    display: flex;
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.box {
+    width: 50%;
+}
+
+.burger-info {
+    text-align: center;
+}
+
+.container.hide {
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .box {
+        width: 100%;
+    }
+}

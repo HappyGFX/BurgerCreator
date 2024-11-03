@@ -13,8 +13,7 @@
     border-radius: 0;
     padding: 12px 12px;
     cursor: pointer;
-    margin: 0;
-    margin-bottom: 6px;
+    margin: 0 0 6px;
 }
 
 button:hover {
